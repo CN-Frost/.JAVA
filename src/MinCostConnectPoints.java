@@ -5,8 +5,7 @@ public class MinCostConnectPoints {
     public static int minCostConnectPoints(int[][] points) {
         int Ans=0;
         int n=points.length;
-        int[] this.f=
-        for(int i=0;i<n;i++)f=i;
+//        for(int i=0;i<n;i++)f=i;
         //初始化并查集
         Edge pointEdge=new Edge();
         for(int i=0;i<n;i++){
