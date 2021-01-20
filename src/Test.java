@@ -1,5 +1,6 @@
 public class Test {
     public static void main(String[] args) {
-     System.out.println("Hello World");
+        int[][] points = {{-1000000,-1000000}, {1000000,1000000}};
+        System.out.println(MinCostConnectPoints.minCostConnectPoints(points));
     }
 }
